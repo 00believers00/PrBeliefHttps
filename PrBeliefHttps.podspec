@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "PrBeliefHttps"
-    spec.version      = "0.0.1"
+    spec.version      = "0.0.2"
     spec.summary      = "Request Https Method"
     spec.description  = <<-DESC
                             Request Https Method GET, POST, UPDATE, DELETE
                    DESC
-    spec.homepage     = "https://github.com/00believers00"
+    spec.homepage     = "https://github.com/00believers00/PrBeliefHttps"
     spec.license          = {:type => 'MIT', :text => <<-LICENSE
                             Copyright <2022> <Atiwat Promarin>
                             
@@ -22,10 +22,9 @@ Pod::Spec.new do |spec|
     spec.social_media_url = 'https://github.com/00believers00'
 
     spec.platform     = :ios, '13.0'
-    spec.requires_arc = true
+    spec.module_name  = "PrBeliefHttps"
 
-    spec.source_files  = "PrBeliefHttps", "PrBeliefHttps/**/*.{swift}"
-    spec.exclude_files = "PrBeliefHttps/Exclude"
+    spec.source_files = "PrBeliefHttps/**/*.{swift}"
     
     spec.swift_version = "5.0"
 
