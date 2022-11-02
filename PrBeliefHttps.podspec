@@ -22,9 +22,9 @@ Pod::Spec.new do |spec|
     spec.social_media_url = 'https://github.com/00believers00'
 
     spec.platform     = :ios, '13.0'
-    spec.module       = "PrBeliefHttps"
+    spec.module_name  = "PrBeliefHttps"
 
-    spec.source_files  = "PrBeliefHttps/**/*.{swift}"
+    spec.source_files = "PrBeliefHttps/**/*.{swift}"
     
     spec.swift_version = "5.0"
 
